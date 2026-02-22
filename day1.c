@@ -16,6 +16,7 @@ int main() {
     }
 
     arr[pos - 1] = x;
+    
     for (int i = 0; i <= n; i++) {
         printf("%d", arr[i]);
         if (i < n) printf(" ");

@@ -12,6 +12,7 @@ int main() {
     
     scanf("%d", &pos);
     
+    
     for (int i = pos - 1; i < n - 1; i++) {
         arr[i] = arr[i + 1];
     }
